@@ -25,6 +25,18 @@ describe('Componente principal', () => {
     expect(screen.getByLabelText('Verificar')).toBeChecked();   
    })
 
+   //test('Garantir que o componente de _______ está recebendo o caminho correto', () => {
+    //render(
+     // <ImageLoader
+       // src="imagem-enter.png"        
+       // alt="Imagem de Entrada"
+      ///>,
+    //);
+
+  //const imageRef = screen.getByAltText('Imagem de Entrada');
+  //expect(imageRef).toHaveAttribute('src', 'imagem-enter.png');
+  //});
+
 })
 
 
